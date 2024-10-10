@@ -14,6 +14,7 @@ public class DeliveryManager : MonoBehaviour
 
     [SerializeField] private RecipeListSO recipeListSO;
 
+    public Money kaching; 
     private List<RecipeSO> waitingRecipeSOList;
     private float spawnRecipeTimer;
     private float spawnRecipeTimerMax = 4f;
@@ -74,6 +75,8 @@ public class DeliveryManager : MonoBehaviour
                 if (plateContentsMatchesRecipe)
                 {
                     successfulRecipesAmount++;
+
+                    kaching.AddFunds(100); 
 
                     waitingRecipeSOList.RemoveAt(i);
 

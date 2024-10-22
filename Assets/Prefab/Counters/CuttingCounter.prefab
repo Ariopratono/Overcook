@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7315503693683538314}
   - component: {fileID: 5414440782249029482}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Selected
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5772644837680269029}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Visual_CuttingCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 8878471329675251879}
   - component: {fileID: 3490943030398008494}
   - component: {fileID: 8598060573118339436}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: KitchenCutting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,6 +249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ProgressBarUI
       objectReference: {fileID: 0}
+    - target: {fileID: 2437166810512647517, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3780022920282831785, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
       propertyPath: cuttingCounter
       value: 
@@ -257,6 +261,10 @@ PrefabInstance:
       propertyPath: hasProgressGameObject
       value: 
       objectReference: {fileID: 2378757932684382033}
+    - target: {fileID: 3939067940888915291, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7712954321269109773, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -337,6 +345,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8129588681114801200, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -398,6 +410,14 @@ PrefabInstance:
     - target: {fileID: 5032495929334312683, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
       propertyPath: m_Name
       value: CuttingCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032495929334312683, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713165488103391944, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

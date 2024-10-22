@@ -5315,6 +5315,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoveCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 5032495929334312683, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713165488103391944, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5403,10 +5411,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ProgressBarUI
       objectReference: {fileID: 0}
+    - target: {fileID: 2437166810512647517, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3780022920282831785, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
       propertyPath: hasProgressGameObject
       value: 
       objectReference: {fileID: 6666589934308266874}
+    - target: {fileID: 3939067940888915291, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7712954321269109773, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5485,6 +5501,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7712954321269109773, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8129588681114801200, guid: 067886ce1e8e7854d89bd90be4b087ef, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

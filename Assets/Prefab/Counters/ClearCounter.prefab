@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5473010731653136238}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Visual_Barang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3376689830013330139}
   - component: {fileID: 3441384563559222758}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Selected
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,6 +292,14 @@ PrefabInstance:
     - target: {fileID: 5032495929334312683, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
       propertyPath: m_Name
       value: ClearCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032495929334312683, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713165488103391944, guid: 5d1da01bffa060a41a3101ec70cc89a1, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

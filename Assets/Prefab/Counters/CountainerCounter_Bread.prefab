@@ -16,6 +16,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CountainerCounter_Bread
       objectReference: {fileID: 0}
+    - target: {fileID: 2428160360821450580, guid: 82e601cadacf4f449a8a1ce97f975a42, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428160360821450580, guid: 82e601cadacf4f449a8a1ce97f975a42, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428160360821450580, guid: 82e601cadacf4f449a8a1ce97f975a42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8604458173560202311, guid: 82e601cadacf4f449a8a1ce97f975a42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

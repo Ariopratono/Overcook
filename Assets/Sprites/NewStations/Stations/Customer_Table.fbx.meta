@@ -3,7 +3,12 @@ guid: 50ec23e5440be5741a6da4ee5b0c3b85
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Baked_CT_Texture
+    second: {fileID: 2100000, guid: 5190cfffeb013d641995e5c04fa9899a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

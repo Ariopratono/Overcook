@@ -3,7 +3,12 @@ guid: ca7d6d206c15be44aba4761bbab2d795
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair_Baked_Texture
+    second: {fileID: 2100000, guid: 9e5aaf2339e54704a9c061135a098121, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

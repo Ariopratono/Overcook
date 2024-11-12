@@ -134,7 +134,7 @@ Material:
     - _Min: 0.3
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Outline_Thickness: 0.02
+    - _Outline_Thickness: 0.03
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0

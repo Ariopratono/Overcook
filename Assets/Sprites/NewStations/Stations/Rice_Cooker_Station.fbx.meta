@@ -3,7 +3,12 @@ guid: a38a77707d177f449bbce4ee6f3b3782
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RC_Station_Baked_Textures
+    second: {fileID: 2100000, guid: 8837c80d3658bc94da2c55aaa4c67e58, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

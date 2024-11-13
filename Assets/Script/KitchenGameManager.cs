@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; 
+using TMPro; 
 
 public class KitchenGameManager : MonoBehaviour
 {
@@ -23,8 +25,9 @@ public class KitchenGameManager : MonoBehaviour
     private float waitingToStartTimer = 1f;
     private float countdownToStartTimer = 3f;
     [SerializeField] private float gamePlayingTimer;
-    [SerializeField] private float gamePlayingTimerMax = 10f;
+    [SerializeField] private float gamePlayingTimerMax = 100f;
     private bool isGamePaused = false;
+    public TMP_Text TimeText; 
 
     private void Awake()
     {
@@ -70,6 +73,7 @@ public class KitchenGameManager : MonoBehaviour
                     state = State.GameOver;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
                 }
+                UpdateCrono(); 
                 break;
             case State.GameOver:
                 break;
@@ -116,5 +120,27 @@ public class KitchenGameManager : MonoBehaviour
 
             OnGameUnpaused?.Invoke(this, EventArgs.Empty);
         }
+    }
+
+    private void UpdateCrono()
+    {
+        int minutes = Mathf.FloorToInt(gamePlayingTimer/60);
+        int seconds = Mathf.FloorToInt(gamePlayingTimer%60);
+        string theMinutes; 
+        string theSeconds; 
+
+        if(minutes < 10)
+        {
+            theMinutes = string.Format("0{0}", minutes); 
+        }
+        else theMinutes = string.Format("{0}", minutes); 
+
+        if(seconds < 10)
+        {
+            theSeconds = string.Format("0{0}", seconds); 
+        }
+        else theSeconds = string.Format("{0}", seconds);
+
+        TimeText.text = theMinutes + ":" + theSeconds;
     }
 }

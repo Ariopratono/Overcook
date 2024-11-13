@@ -484,6 +484,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.21
       objectReference: {fileID: 0}
+    - target: {fileID: 1127736027416189178, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891376668656435543, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2035851122615032533, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
       propertyPath: m_Name
       value: PlateCompleteVisual
@@ -564,6 +572,14 @@ PrefabInstance:
       propertyPath: kitchenObjectSOGameObjectList.Array.data[5].kitchenObjectSO
       value: 
       objectReference: {fileID: 11400000, guid: 20b2869ef476da940b56ee986c76a40f, type: 2}
+    - target: {fileID: 3973941864170442025, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021726315825743626, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6131630727272711190, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -588,6 +604,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.24
       objectReference: {fileID: 0}
+    - target: {fileID: 6618627563528601929, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7174321674332308496, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -603,6 +623,10 @@ PrefabInstance:
     - target: {fileID: 7174321674332308496, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062066189089618300, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8707077813952334024, guid: 7645f4f3477eb0a4d80b834ebe295115, type: 3}
       propertyPath: m_LocalScale.x

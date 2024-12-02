@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f133c1a9229d049bff9c43b5982f42, type: 3}
+  m_Name: Indonesian Recipe
+  m_EditorClassIdentifier: 
+  recipeSOList:
+  - {fileID: 11400000, guid: 02a3e0aac6962ff49a846ae8586bb4e1, type: 2}
+  - {fileID: 11400000, guid: 8f173f812f98c014c8ba281b4dc25298, type: 2}
+  - {fileID: 11400000, guid: f5eacfde88a6b1042b082c57eaafc0d9, type: 2}
+  - {fileID: 11400000, guid: 44d13afb4a1196a49b9dee4a978f1564, type: 2}
+  - {fileID: 11400000, guid: e092bdba87f361847a667f01d05b246a, type: 2}
+  - {fileID: 11400000, guid: 39cb6eca26726234cbb979166412521b, type: 2}
+  - {fileID: 11400000, guid: 061c7981d1e198f4798904bd68cfea38, type: 2}

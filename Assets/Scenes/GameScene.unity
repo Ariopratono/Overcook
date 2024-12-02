@@ -698,6 +698,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 488640344}
     m_Modifications:
+    - target: {fileID: 2066057534337806512, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066057534337806512, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4ffc936dad534cd4498b03582f66e046, type: 2}
+    - target: {fileID: 2066057534337806512, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7ef904097b3bfc742a8dae42954ad936, type: 2}
     - target: {fileID: 2378757932684382033, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
       propertyPath: m_Name
       value: CuttingCounter (1)
@@ -2001,6 +2013,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 488640344}
     m_Modifications:
+    - target: {fileID: 2066057534337806512, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066057534337806512, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4ffc936dad534cd4498b03582f66e046, type: 2}
+    - target: {fileID: 2066057534337806512, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7ef904097b3bfc742a8dae42954ad936, type: 2}
     - target: {fileID: 2378757932684382033, guid: 07f3baff5d58a4d459474234ff2c6932, type: 3}
       propertyPath: m_Name
       value: CuttingCounter
@@ -2196,9 +2220,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1981075822}
     m_Modifications:
+    - target: {fileID: 3327108017434956375, guid: db7a1b68fb2eff843938ae5f1e3b9982, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: c57091dedbed1584183edfbe38f91dca, type: 2}
     - target: {fileID: 3432512307743240191, guid: db7a1b68fb2eff843938ae5f1e3b9982, type: 3}
       propertyPath: m_Name
-      value: CountainerCounter_Bread
+      value: SpawnerBeef
       objectReference: {fileID: 0}
     - target: {fileID: 5419995485298359778, guid: db7a1b68fb2eff843938ae5f1e3b9982, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2266,7 +2294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &456657331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4397,7 +4425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &726860414
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5142,9 +5170,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1981075822}
     m_Modifications:
+    - target: {fileID: 641018183228946549, guid: 286e1447e4b638f4eac1b06089f32f9b, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: fcee548cf7e988e48b49d0cb638c69b2, type: 2}
     - target: {fileID: 678814809211061725, guid: 286e1447e4b638f4eac1b06089f32f9b, type: 3}
       propertyPath: m_Name
-      value: CountainerCounter_MeatPattyUncooked
+      value: SpawnerFish
       objectReference: {fileID: 0}
     - target: {fileID: 7925957749774489536, guid: 286e1447e4b638f4eac1b06089f32f9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5220,7 +5252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afa27e07e5f2ba64fa918140100ee994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recipeListSO: {fileID: 11400000, guid: 2c848ac3436b06342b96665a1a2e90ff, type: 2}
+  recipeListSO: {fileID: 11400000, guid: 54f7a7bd39ef25949bf5303f6c13e358, type: 2}
   kaching: {fileID: 1602840194}
 --- !u!4 &842639881
 Transform:
@@ -5280,7 +5312,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8d2aa353df0a16a4ca44e281511e34eb, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -5516,7 +5548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &927129692
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6012,7 +6044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2248623667018682630, guid: 56271fe665db30b48b27b2656f159bb6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.19
+      value: 0.467
       objectReference: {fileID: 0}
     - target: {fileID: 2248623667018682630, guid: 56271fe665db30b48b27b2656f159bb6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6565,9 +6597,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5690756551564532172, guid: 7e784327f85e33a4eb03f78109b85106, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: f43c24600cd2cab4b8c1fe546fa292e0, type: 2}
     - target: {fileID: 5726142423090504804, guid: 7e784327f85e33a4eb03f78109b85106, type: 3}
       propertyPath: m_Name
-      value: CountainerCounter_Cabbage
+      value: SpawnerEgg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7686,6 +7722,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1981075822}
     m_Modifications:
+    - target: {fileID: 1329370231142763506, guid: 6d9ee02c56b28b84ca61b1eb02594b59, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 1a7b5779910897d41b71a17cee315613, type: 2}
     - target: {fileID: 1440069902539945562, guid: 6d9ee02c56b28b84ca61b1eb02594b59, type: 3}
       propertyPath: m_Name
       value: CountainerCounter_CheeseBlock
@@ -8457,6 +8497,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 94db16efa8d3afe498857a4a70133af1, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 26d46f6ff77da4346950b0d42acfe334, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8e5b3e2183d3f3d43be48ee34590f8a4, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 43bcf1c87b1536344b820ca48134ab30, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e7adb992b74c174a8d8ca5968091ff8, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: c8f0150e3153e4442bc47afd910c466c, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: fb0182898504ff54a93b0f393c8e51b8, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: ca155f2389c8832458ba00ca1e5e12a9, type: 2}
     - target: {fileID: 3853575135438116354, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -8558,6 +8638,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8e5b3e2183d3f3d43be48ee34590f8a4, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 43bcf1c87b1536344b820ca48134ab30, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 26d46f6ff77da4346950b0d42acfe334, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: fryingRecipeSOArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 94db16efa8d3afe498857a4a70133af1, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e7adb992b74c174a8d8ca5968091ff8, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: c8f0150e3153e4442bc47afd910c466c, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: fb0182898504ff54a93b0f393c8e51b8, type: 2}
+    - target: {fileID: 3131335740854254152, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
+      propertyPath: burningRecipeSOArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: ca155f2389c8832458ba00ca1e5e12a9, type: 2}
     - target: {fileID: 3853575135438116354, guid: 19f03ae3c04011044b1fbcfb67ecd6b4, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -9255,7 +9375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1685247498
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10939,9 +11059,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1981075822}
     m_Modifications:
+    - target: {fileID: 1329370231142763506, guid: 82e601cadacf4f449a8a1ce97f975a42, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 04ecaa62a61819e4b9775ca07fb7ee91, type: 2}
     - target: {fileID: 1440069902539945562, guid: 82e601cadacf4f449a8a1ce97f975a42, type: 3}
       propertyPath: m_Name
-      value: CountainerCounter_Tomato
+      value: SpawnerChicken
       objectReference: {fileID: 0}
     - target: {fileID: 6552731520276947695, guid: 82e601cadacf4f449a8a1ce97f975a42, type: 3}
       propertyPath: m_LocalPosition.x

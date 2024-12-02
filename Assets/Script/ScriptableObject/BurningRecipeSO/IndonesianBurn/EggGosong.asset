@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d781c2affb7744d9afa3b3f2decff2, type: 3}
+  m_Name: EggGosong
+  m_EditorClassIdentifier: 
+  input: {fileID: 11400000, guid: b81bde01aeb71364a8138dac354362c7, type: 2}
+  output: {fileID: 11400000, guid: 3063c0a9b0ca999448a67b869f14b821, type: 2}
+  burningTimerMax: 3

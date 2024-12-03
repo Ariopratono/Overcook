@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50eaebc23d97be842a8721bb28f3b8c6, type: 3}
+  m_Name: FishCooked
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2580684998551076254, guid: da5e9f8c0561d024396306fd96090609, type: 3}
+  sprite: {fileID: 21300000, guid: ec8083eaa5408d049a202be30c28df87, type: 3}
+  objectName: FishCooked

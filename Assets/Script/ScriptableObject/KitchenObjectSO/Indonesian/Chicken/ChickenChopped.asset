@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50eaebc23d97be842a8721bb28f3b8c6, type: 3}
+  m_Name: ChickenChopped
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1812622463558220562, guid: 7168d0fcad7514a41821bd6ba99602c8, type: 3}
+  sprite: {fileID: 21300000, guid: 1a5ba7aa111fc0c47b8a2424b6ac9abe, type: 3}
+  objectName: ChickenChopped

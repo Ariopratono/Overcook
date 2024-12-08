@@ -7,7 +7,6 @@ public class PlayerAnimationHandler : MonoBehaviour
     public HoldCheck holdis; 
 
     Animator animator;
-    // [SerializeField] private Animator kitchenObjectAnimator;
 
     void Start()
     {
@@ -36,34 +35,5 @@ public class PlayerAnimationHandler : MonoBehaviour
         {
             animator.SetBool("IsHold", false);
         }
-
-        // if(Input.GetKey("e"))
-        // {
-        //     animator.SetBool("IsHold", true);
-
-        //     if(Input.GetKey("e"))
-        //     {
-        //         animator.SetBool("IsHold", false);
-        //     }
-        // }
-        // if((!Input.GetKey("e"))) {
-        //     animator.SetBool("IsHold",false);
-        // }
     }
-
-//     public void SetKitchenObject(KitchenObject kitchenObject)
-//     {
-//         // Update animator state based on whether the kitchen object is not null
-//         kitchenObjectAnimator.SetBool("IsHold", kitchenObject != null);
-
-//         if (kitchenObject != null)
-//         {
-//             Debug.Log("Started holding an object.");
-//         }
-//         else
-//         {
-//             Debug.Log("Stopped holding an object.");
-//         }
-//     }  
-
 }

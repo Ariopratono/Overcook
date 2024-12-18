@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50eaebc23d97be842a8721bb28f3b8c6, type: 3}
   m_Name: ChickenOvercooked
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4666732631685861716, guid: 1ff38193edd6fe54e84c89e2694e120c, type: 3}
+  prefab: {fileID: 1812622463558220562, guid: 20b35270ee06d824e943beb69b83dddf, type: 3}
   sprite: {fileID: 21300000, guid: 1e07137618ac46c41b486a00a5753ef2, type: 3}
   objectName: ChickenOvercooked
